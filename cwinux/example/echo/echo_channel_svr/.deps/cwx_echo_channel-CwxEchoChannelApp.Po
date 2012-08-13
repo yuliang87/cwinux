@@ -1,0 +1,962 @@
+cwx_echo_channel-CwxEchoChannelApp.o: CwxEchoChannelApp.cpp \
+ CwxEchoChannelApp.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppFramework.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxPre.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxGlobalMacro.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxPre.h \
+ /usr/include/assert.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-32.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxPost.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxLockGuard.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxGlobalMacro.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxMutexLock.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxType.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxConfig.h \
+ /usr/include/stdio.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/include/stddef.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/include/bits/wchar.h /usr/include/gconv.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/stdint.h /usr/include/inttypes.h /usr/include/strings.h \
+ /usr/include/string.h /usr/include/xlocale.h /usr/include/time.h \
+ /usr/include/bits/time.h /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/sys/stat.h /usr/include/bits/stat.h \
+ /usr/include/sys/types.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/fcntl.h /usr/include/bits/fcntl.h /usr/include/bits/uio.h \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/environments.h /usr/include/bits/confname.h \
+ /usr/include/getopt.h /usr/include/arpa/inet.h /usr/include/netinet/in.h \
+ /usr/include/sys/socket.h /usr/include/sys/uio.h \
+ /usr/include/bits/socket.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/include-fixed/limits.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
+ /usr/include/bits/sockaddr.h /usr/include/asm/socket.h \
+ /usr/include/asm/sockios.h /usr/include/bits/in.h \
+ /usr/include/bits/byteswap.h /usr/include/sys/time.h \
+ /usr/include/sys/mman.h /usr/include/bits/mman.h /usr/include/pthread.h \
+ /usr/include/sched.h /usr/include/bits/sched.h /usr/include/signal.h \
+ /usr/include/bits/setjmp.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxMutexLock.inl \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxDate.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxStl.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/utility \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/i686-pc-linux-gnu/bits/c++config.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/i686-pc-linux-gnu/bits/os_defines.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/i686-pc-linux-gnu/bits/cpu_defines.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/stl_relops.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/stl_pair.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/move.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/cstddef \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/concept_check.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/type_traits \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/tr1_impl/type_traits \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/tr1_impl/utility \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/initializer_list \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/algorithm \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/stl_algobase.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/functexcept.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/exception_defines.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/cpp_type_traits.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/ext/type_traits.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/ext/numeric_traits.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/stl_iterator_base_types.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/stl_iterator_base_funcs.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/stl_iterator.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/debug/debug.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/stl_algo.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/cstdlib \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/alloca.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/tr1_impl/cstdlib \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/algorithmfwd.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/stl_heap.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/stl_tempbuf.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/stl_construct.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/new \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/exception \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/stl_uninitialized.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/string \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/stringfwd.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/char_traits.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/postypes.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/cwchar \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/tr1_impl/cwchar \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/cstdint \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/tr1_impl/cstdint \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/allocator.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/i686-pc-linux-gnu/bits/c++allocator.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/ext/new_allocator.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/localefwd.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/i686-pc-linux-gnu/bits/c++locale.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/clocale \
+ /usr/include/locale.h /usr/include/bits/locale.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/iosfwd \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/cctype \
+ /usr/include/ctype.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/tr1_impl/cctype \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/ostream_insert.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/cxxabi-forced.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/stl_function.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/backward/binders.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/basic_string.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/ext/atomicity.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/i686-pc-linux-gnu/bits/gthr.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/i686-pc-linux-gnu/bits/gthr-default.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/i686-pc-linux-gnu/bits/atomic_word.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/ext/string_conversions.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/cstdio \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/tr1_impl/cstdio \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/cerrno \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/basic_string.tcc \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/vector \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/stl_vector.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/stl_bvector.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/vector.tcc \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/queue \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/deque \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/stl_deque.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/deque.tcc \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/stl_queue.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/list \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/stl_list.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/list.tcc \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/set \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/stl_tree.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/stl_set.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/stl_multiset.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/map \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/stl_map.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/stl_multimap.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/unordered_set \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/functional_hash.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/tr1_impl/functional_hash.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/hashtable.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/tr1_impl/hashtable \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/tr1_impl/hashtable_policy.h \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/tr1_impl/unordered_set \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/unordered_map \
+ /usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/tr1_impl/unordered_map \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxStlFunc.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxDate.inl \
+ /home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppConfig.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppMacro.h \
+ /usr/include/bits/signum.h /usr/include/bits/siginfo.h \
+ /usr/include/bits/sigaction.h /usr/include/bits/sigcontext.h \
+ /usr/include/asm/sigcontext.h /usr/include/bits/sigstack.h \
+ /usr/include/sys/ucontext.h /usr/include/bits/sigthread.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxPost.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxLogger.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxTss.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxLockGuard.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxMutexLock.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxFile.h \
+ /usr/include/dirent.h /usr/include/bits/dirent.h /usr/include/sys/wait.h \
+ /usr/include/sys/resource.h /usr/include/bits/resource.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxFile.inl \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxCommon.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxCommon.inl \
+ /home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppTcpAcceptor.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/net/CwxINetAddr.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxType.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/net/CwxNetMacro.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/net/CwxAddr.h \
+ /usr/include/net/if.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/net/CwxAddr.inl \
+ /home/dwb/cwinux/cwinux/build_debug/include/net/CwxSocket.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxTimeValue.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxTimeValue.inl \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxMsgHead.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxMsgHead.inl \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxMsgBlock.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxMsgHead.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxSingleton.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxMsgBlock.inl \
+ /usr/include/netinet/tcp.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/net/CwxSocket.inl \
+ /usr/include/netdb.h /usr/include/rpc/netdb.h /usr/include/bits/netdb.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/net/CwxINetAddr.inl \
+ /home/dwb/cwinux/cwinux/build_debug/include/net/CwxSockAcceptor.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxErrGuard.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxErrGuard.inl \
+ /home/dwb/cwinux/cwinux/build_debug/include/net/CwxINetAddr.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/net/CwxSockStream.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/net/CwxSockIo.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/net/CwxSockBase.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/net/CwxIpcSap.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/net/CwxIpcSap.inl \
+ /home/dwb/cwinux/cwinux/build_debug/include/net/CwxSockBase.inl \
+ /home/dwb/cwinux/cwinux/build_debug/include/net/CwxSockIo.inl \
+ /home/dwb/cwinux/cwinux/build_debug/include/net/CwxSockStream.inl \
+ /home/dwb/cwinux/cwinux/build_debug/include/net/CwxSockAcceptor.inl \
+ /home/dwb/cwinux/cwinux/build_debug/include/net/CwxSockStream.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppHandler4TcpConn.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppHandler4Base.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppHandler4Base.inl \
+ /home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppReactor.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxRwLock.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxRwLock.inl \
+ /home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppNoticePipe.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppNoticePipe.inl \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxThread.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxMsgQueue.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxCondition.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxTimeValue.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxCondition.inl \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxMsgBlock.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxMsgQueue.inl \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxThreadPoolMgr.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxTpi.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxCommander.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxCommander.inl \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxLogger.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxThread.inl \
+ /home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppEpoll.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxMinHeap.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/net/CwxIpcSap.h \
+ /usr/include/sys/epoll.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppEpoll.inl \
+ /home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppReactor.inl \
+ /home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppHandler4Msg.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/net/CwxSocket.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppConnInfo.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxStl.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxStlFunc.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/net/CwxNetMacro.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppConnInfo.inl \
+ /home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppHandler4Msg.inl \
+ /home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppHandler4TcpConn.inl \
+ /home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppTcpConnector.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppUnixAcceptor.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/net/CwxUnixAddr.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxCommon.h \
+ /usr/include/sys/un.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/net/CwxUnixAddr.inl \
+ /home/dwb/cwinux/cwinux/build_debug/include/net/CwxUnixAcceptor.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/net/CwxUnixAddr.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/net/CwxUnixStream.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/net/CwxUnixStream.inl \
+ /home/dwb/cwinux/cwinux/build_debug/include/net/CwxSockAcceptor.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/net/CwxUnixAcceptor.inl \
+ /home/dwb/cwinux/cwinux/build_debug/include/net/CwxUnixStream.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppHandler4UnixConn.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppHandler4UnixConn.inl \
+ /home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppUnixConnector.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/net/CwxUnixConnector.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/net/CwxSockConnector.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/net/CwxSockConnector.inl \
+ /home/dwb/cwinux/cwinux/build_debug/include/net/CwxUnixConnector.inl \
+ /home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppHandler4IoEvent.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppHandler4Signal.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppHandler4Time.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppHandler4Notice.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppHandler4Stdio.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppHandlerCache.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppHandler4IoMsg.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppHandlerCache.inl \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxTss.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxThreadPool.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxThread.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxThreadPool.inl \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxCommander.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxTaskBoard.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxTypePoolEx.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxTaskBoard.inl \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxThreadPoolMgr.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppListenMgr.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppForkMgr.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppFramework.inl \
+ CwxEchoChannelConfig.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxHostInfo.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxIniParse.h \
+ CwxEchoChannelEventHandler.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppHandler4Channel.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxDTail.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppHandler4Channel.inl \
+ /home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppChannel.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppHandler4Channel.h \
+ /home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppChannel.inl
+
+CwxEchoChannelApp.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppFramework.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxPre.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxGlobalMacro.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxPre.h:
+
+/usr/include/assert.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-32.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxPost.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxLockGuard.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxGlobalMacro.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxMutexLock.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxType.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxConfig.h:
+
+/usr/include/stdio.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/include/stddef.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/include/bits/wchar.h:
+
+/usr/include/gconv.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/include/stdarg.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/include/stdint.h:
+
+/usr/include/inttypes.h:
+
+/usr/include/strings.h:
+
+/usr/include/string.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/time.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/errno.h:
+
+/usr/include/bits/errno.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/asm/errno.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/sys/stat.h:
+
+/usr/include/bits/stat.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/sigset.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/fcntl.h:
+
+/usr/include/bits/fcntl.h:
+
+/usr/include/bits/uio.h:
+
+/usr/include/unistd.h:
+
+/usr/include/bits/posix_opt.h:
+
+/usr/include/bits/environments.h:
+
+/usr/include/bits/confname.h:
+
+/usr/include/getopt.h:
+
+/usr/include/arpa/inet.h:
+
+/usr/include/netinet/in.h:
+
+/usr/include/sys/socket.h:
+
+/usr/include/sys/uio.h:
+
+/usr/include/bits/socket.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/include-fixed/limits.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/include-fixed/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/bits/posix1_lim.h:
+
+/usr/include/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/bits/posix2_lim.h:
+
+/usr/include/bits/xopen_lim.h:
+
+/usr/include/bits/sockaddr.h:
+
+/usr/include/asm/socket.h:
+
+/usr/include/asm/sockios.h:
+
+/usr/include/bits/in.h:
+
+/usr/include/bits/byteswap.h:
+
+/usr/include/sys/time.h:
+
+/usr/include/sys/mman.h:
+
+/usr/include/bits/mman.h:
+
+/usr/include/pthread.h:
+
+/usr/include/sched.h:
+
+/usr/include/bits/sched.h:
+
+/usr/include/signal.h:
+
+/usr/include/bits/setjmp.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxMutexLock.inl:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxDate.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxStl.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/utility:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/i686-pc-linux-gnu/bits/c++config.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/i686-pc-linux-gnu/bits/os_defines.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/i686-pc-linux-gnu/bits/cpu_defines.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/stl_relops.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/stl_pair.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/move.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/cstddef:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/concept_check.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/type_traits:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/tr1_impl/type_traits:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/tr1_impl/utility:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/initializer_list:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/algorithm:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/stl_algobase.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/functexcept.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/exception_defines.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/cpp_type_traits.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/ext/type_traits.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/ext/numeric_traits.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/stl_iterator_base_types.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/stl_iterator_base_funcs.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/stl_iterator.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/debug/debug.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/stl_algo.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/cstdlib:
+
+/usr/include/stdlib.h:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/include/alloca.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/tr1_impl/cstdlib:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/algorithmfwd.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/stl_heap.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/stl_tempbuf.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/stl_construct.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/new:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/exception:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/stl_uninitialized.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/string:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/stringfwd.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/char_traits.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/postypes.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/cwchar:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/tr1_impl/cwchar:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/cstdint:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/tr1_impl/cstdint:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/allocator.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/i686-pc-linux-gnu/bits/c++allocator.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/ext/new_allocator.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/localefwd.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/i686-pc-linux-gnu/bits/c++locale.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/clocale:
+
+/usr/include/locale.h:
+
+/usr/include/bits/locale.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/iosfwd:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/cctype:
+
+/usr/include/ctype.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/tr1_impl/cctype:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/ostream_insert.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/cxxabi-forced.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/stl_function.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/backward/binders.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/basic_string.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/ext/atomicity.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/i686-pc-linux-gnu/bits/gthr.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/i686-pc-linux-gnu/bits/gthr-default.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/i686-pc-linux-gnu/bits/atomic_word.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/ext/string_conversions.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/cstdio:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/tr1_impl/cstdio:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/cerrno:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/basic_string.tcc:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/vector:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/stl_vector.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/stl_bvector.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/vector.tcc:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/queue:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/deque:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/stl_deque.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/deque.tcc:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/stl_queue.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/list:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/stl_list.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/list.tcc:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/set:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/stl_tree.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/stl_set.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/stl_multiset.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/map:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/stl_map.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/stl_multimap.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/unordered_set:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/functional_hash.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/tr1_impl/functional_hash.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/bits/hashtable.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/tr1_impl/hashtable:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/tr1_impl/hashtable_policy.h:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/tr1_impl/unordered_set:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/unordered_map:
+
+/usr/local/lib/gcc/i686-pc-linux-gnu/4.4.3/../../../../include/c++/4.4.3/tr1_impl/unordered_map:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxStlFunc.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxDate.inl:
+
+/home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppConfig.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppMacro.h:
+
+/usr/include/bits/signum.h:
+
+/usr/include/bits/siginfo.h:
+
+/usr/include/bits/sigaction.h:
+
+/usr/include/bits/sigcontext.h:
+
+/usr/include/asm/sigcontext.h:
+
+/usr/include/bits/sigstack.h:
+
+/usr/include/sys/ucontext.h:
+
+/usr/include/bits/sigthread.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxPost.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxLogger.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxTss.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxLockGuard.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxMutexLock.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxFile.h:
+
+/usr/include/dirent.h:
+
+/usr/include/bits/dirent.h:
+
+/usr/include/sys/wait.h:
+
+/usr/include/sys/resource.h:
+
+/usr/include/bits/resource.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxFile.inl:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxCommon.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxCommon.inl:
+
+/home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppTcpAcceptor.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/net/CwxINetAddr.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxType.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/net/CwxNetMacro.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/net/CwxAddr.h:
+
+/usr/include/net/if.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/net/CwxAddr.inl:
+
+/home/dwb/cwinux/cwinux/build_debug/include/net/CwxSocket.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxTimeValue.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxTimeValue.inl:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxMsgHead.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxMsgHead.inl:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxMsgBlock.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxMsgHead.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxSingleton.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxMsgBlock.inl:
+
+/usr/include/netinet/tcp.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/net/CwxSocket.inl:
+
+/usr/include/netdb.h:
+
+/usr/include/rpc/netdb.h:
+
+/usr/include/bits/netdb.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/net/CwxINetAddr.inl:
+
+/home/dwb/cwinux/cwinux/build_debug/include/net/CwxSockAcceptor.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxErrGuard.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxErrGuard.inl:
+
+/home/dwb/cwinux/cwinux/build_debug/include/net/CwxINetAddr.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/net/CwxSockStream.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/net/CwxSockIo.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/net/CwxSockBase.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/net/CwxIpcSap.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/net/CwxIpcSap.inl:
+
+/home/dwb/cwinux/cwinux/build_debug/include/net/CwxSockBase.inl:
+
+/home/dwb/cwinux/cwinux/build_debug/include/net/CwxSockIo.inl:
+
+/home/dwb/cwinux/cwinux/build_debug/include/net/CwxSockStream.inl:
+
+/home/dwb/cwinux/cwinux/build_debug/include/net/CwxSockAcceptor.inl:
+
+/home/dwb/cwinux/cwinux/build_debug/include/net/CwxSockStream.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppHandler4TcpConn.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppHandler4Base.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppHandler4Base.inl:
+
+/home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppReactor.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxRwLock.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxRwLock.inl:
+
+/home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppNoticePipe.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppNoticePipe.inl:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxThread.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxMsgQueue.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxCondition.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxTimeValue.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxCondition.inl:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxMsgBlock.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxMsgQueue.inl:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxThreadPoolMgr.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxTpi.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxCommander.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxCommander.inl:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxLogger.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxThread.inl:
+
+/home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppEpoll.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxMinHeap.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/net/CwxIpcSap.h:
+
+/usr/include/sys/epoll.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppEpoll.inl:
+
+/home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppReactor.inl:
+
+/home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppHandler4Msg.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/net/CwxSocket.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppConnInfo.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxStl.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxStlFunc.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/net/CwxNetMacro.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppConnInfo.inl:
+
+/home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppHandler4Msg.inl:
+
+/home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppHandler4TcpConn.inl:
+
+/home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppTcpConnector.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppUnixAcceptor.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/net/CwxUnixAddr.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxCommon.h:
+
+/usr/include/sys/un.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/net/CwxUnixAddr.inl:
+
+/home/dwb/cwinux/cwinux/build_debug/include/net/CwxUnixAcceptor.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/net/CwxUnixAddr.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/net/CwxUnixStream.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/net/CwxUnixStream.inl:
+
+/home/dwb/cwinux/cwinux/build_debug/include/net/CwxSockAcceptor.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/net/CwxUnixAcceptor.inl:
+
+/home/dwb/cwinux/cwinux/build_debug/include/net/CwxUnixStream.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppHandler4UnixConn.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppHandler4UnixConn.inl:
+
+/home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppUnixConnector.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/net/CwxUnixConnector.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/net/CwxSockConnector.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/net/CwxSockConnector.inl:
+
+/home/dwb/cwinux/cwinux/build_debug/include/net/CwxUnixConnector.inl:
+
+/home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppHandler4IoEvent.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppHandler4Signal.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppHandler4Time.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppHandler4Notice.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppHandler4Stdio.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppHandlerCache.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppHandler4IoMsg.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppHandlerCache.inl:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxTss.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxThreadPool.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxThread.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxThreadPool.inl:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxCommander.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxTaskBoard.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxTypePoolEx.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxTaskBoard.inl:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxThreadPoolMgr.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppListenMgr.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppForkMgr.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppFramework.inl:
+
+CwxEchoChannelConfig.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxHostInfo.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxIniParse.h:
+
+CwxEchoChannelEventHandler.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppHandler4Channel.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/cmn/CwxDTail.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppHandler4Channel.inl:
+
+/home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppChannel.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppHandler4Channel.h:
+
+/home/dwb/cwinux/cwinux/build_debug/include/app/CwxAppChannel.inl:
